@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Header */
+
+#header{
+    background-color: grey;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+}
+
+header{
+    width: 100%;
+}
+
+header img{
+    float: left;
+}
+
+header nav{
+    /* border: 1px solid blue; */
+    float: right;
+    margin-right: 0%;
+    width: 50%;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+header nav ul li{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline;
+    margin: 5%;
+    color: white;
+}
+
+.active {
+    background-color: lightgrey;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body */
+
+article{
+    margin: 5% 10%;
+    /* border: 1px solid red; */
+    
+}
+
+#about{
+    /* border: 1px solid green;  */
+    display: inline-block;
+}
+
+#about img{
+    float: right;
+    /* border: 1px solid grey; */
+    margin-right: 5%;
+}
+
+.page{
+    /* border: 1px solid red; */
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.page p{
+    /* border: 1px solid red; */
+    margin: 10px 0;
+}
+
+.box{
+    /* border: 1px solid orange; */
+    text-align: center;
+    width: 100%;
+}
+
+.box h1{
+    /* border: 1px solid red; */
+    background-color: lightgray; 
+    width: 30%;
+    margin-left: 33%;
+    padding: 2%;
+}
+
+.eventcontainer{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.eventcontainer img{
+    margin: 20px auto;
+    /* border: 1px solid blue; */
+}
+
+.newscontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 1px solid green; */
+    margin: 20px auto;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.cardNews{
+    padding: 20px;
+    margin: 20px auto;
+    /* border: 1px solid purple; */
+    transition: all 0.2s linear;
+    border-radius: 15px;
+}
+
+.cardNews:hover{
+    background-color: lightgrey;
+}
+
+.shwbx{
+    border: 2px solid grey;
+    height: 70vh;
+    background: url(image/president\ university\ oke\ baru\ fix-05050.jpg)center/cover no-repeat;
+    border-radius: 7px;
+    flex: 0 0 70%;
+    margin-top: 10%;  
+}
+
+.card{
+    margin: 20px auto;
+    /* border: 1px solid purple; */
+    transition: all 0.2s linear;
+    border-radius: 15px;
+}
+
+.card:hover{
+    background-color: lightgrey;
+}
+
+.eventcap{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 1px  solid blue; */
+}
+
+.newscap{
+    /* border: 1px solid red; */
+    margin: 10px 75px;
+    text-align: left;
+}
+
+#aboutArt{
+    margin-top: 10%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.aboutPage{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
+    /* border: 1px solid purple; */
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.facultyInfo{
+    /* border: 1px solid blue; */
+    text-align: justify;
+}
+.facultyInfo h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pumaInfo{
+    /* border: 1px solid grey; */
+    text-align: justify;
+}
+.pumaInfo h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.aboutBox{
+    /* border: 1px solid green; */
+    text-align: center;
+    background-color: lightgray;
+    width: 30%; 
+    margin: 0 auto;
+}
+.aboutBox h1{
+    padding: 20px;
+}
+
+#lectArt{
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+#memberArt{
+    /* border: 1px solid red; */
+}
+.imgPlace{
+    margin: 20px auto;
+    border:1px solid pink;
+    width: 360px;
+    height: 120px;
+
+}
+
+.division{
+    /* border:1px solid purple; */
+}
+
+.detailPlace{
+    /* border:1px solid blue; */
+    text-align: justify;
+    margin: 5px 20px;
+}
+
+.outerlayer{
+    /* border: 1px solid purple; */
+    margin-top: 30px;
+}
+
+.facultyPic{
+    text-align: center;
+}
+
+#Eventlist{
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: grey;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -5px;
+    /* border: 1px solid red; */
+}
+
+.logofooter{
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 15%;
+}
+
+.infofooter{
+    /* border: 1px solid yellow; */
+    float: right;
+    margin-right: 15%;
+    padding: 5px;
+    margin-top: 1%;
+}
+
+.address{
+    /* border: 1px solid grey; */
+    margin: 2%;
+}
+
+.contact{
+    /* border: 1px solid pink; */
+    margin: 2%;
+}

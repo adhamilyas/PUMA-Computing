@@ -1,0 +1,2 @@
+1. buat container buat slider pada header sebagai focal point
+2. pakai teknik grid
