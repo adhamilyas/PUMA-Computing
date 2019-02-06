@@ -351,3 +351,29 @@ footer{
     /* border: 1px solid pink; */
     margin: 2%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px){
+    .aboutBox{
+        width: 40%;
+    }
+
+    .logofooter img{
+        width: 70%;
+    }
+
+    .
+}
