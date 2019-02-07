@@ -103,13 +103,13 @@ article{
 }
 
 #about {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: auto auto;
 }
 
 .page{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     margin-left: 5%;
 }
@@ -423,5 +423,19 @@ footer{
     footer img{
         width: 70%;
         height: 50%;
+    }
+
+    #showbox{
+        margin-top: 20%;
+    }
+
+    #Eventlist{
+        margin-top: 30%;
+    }
+    .aboutBox{
+    /* border: 1px solid green; */
+    
+    width: 50%; 
+    margin: 0 auto;
     }
 }
