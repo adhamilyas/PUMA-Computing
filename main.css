@@ -159,7 +159,9 @@ article{
     column-gap: 10px;
 }
 
-.newscontainer img
+.newscontainer img{
+    width: 50%;
+}
 
 .cardNews{
     padding: 20px;
@@ -229,6 +231,10 @@ article{
 .facultyInfo h1{
     text-align: center;
     margin: 20px 0;
+}
+
+.facultyPic img{
+    margin-top: 20px; 
 }
 
 .pumaInfo{
