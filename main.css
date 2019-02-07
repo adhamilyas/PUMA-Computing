@@ -7,6 +7,7 @@ a{
     text-decoration: none;
     color: black;
 }
+
 /* Header */
 
 #header{
@@ -98,7 +99,7 @@ article{
 }
 
 #about img{
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin-right: 5%;
 }
 
@@ -374,13 +375,25 @@ footer{
     .box h1{
         /* border: 1px solid red; */
         background-color: lightgray; 
-        width: 50%;
+        width: 55%;
         margin: 0 auto;
         padding: 2%;
     }
 
+    .aboutBox h1{
+        margin-top: 20%;
+    }
+
+    .facultyPic img{
+        margin-top: 20px; 
+    }
+
     content{
         text-align: center;
+    }
+
+    article{
+        margin-bottom: 50px;
     }
 
     header{
@@ -399,10 +412,13 @@ footer{
 
     .page{
         margin: 0 auto;
+        /* border: 1px solid green; */
+        width: 100%;
     }
 
     #about img{
         margin: 0 auto;
+        margin-bottom: 40px;
     }
 
     .eventcontainer{
@@ -410,7 +426,7 @@ footer{
     }
 
     .newscontainer{
-        grid-template-columns: auto; 
+        grid-template-columns: auto;
     }
     .cardNews img{
         width: 70%;
@@ -434,8 +450,25 @@ footer{
     }
     .aboutBox{
     /* border: 1px solid green; */
-    
     width: 50%; 
     margin: 0 auto;
+    }
+
+    .shwbx{
+        height: 20vh;
+    }
+
+    .aboutPage{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 1%;
+        /* border: 1px solid purple; */
+    }
+
+    .imgPlace{
+        margin: 20px auto;
+        width: 240px;
+        height: 80px;
+    
     }
 }
