@@ -25,6 +25,8 @@ header{
 
 header img{
     float: left;
+    width: 200px;
+    height: 40px;
 }
 
 header nav{
@@ -95,21 +97,20 @@ article{
     
 }
 
-#about{
-    /* border: 1px solid green;  */
-    display: inline-block;
-}
-
 #about img{
-    float: right;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     margin-right: 5%;
 }
 
+#about {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .page{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 50%;
-    float: left;
     margin-left: 5%;
 }
 
@@ -156,6 +157,8 @@ article{
     text-align: center;
     column-gap: 10px;
 }
+
+.newscontainer img
 
 .cardNews{
     padding: 20px;
@@ -366,14 +369,59 @@ footer{
 
 
 
-@media (min-width: 375px){
-    .aboutBox{
-        width: 40%;
+@media (max-width: 400px){
+
+    .box h1{
+        /* border: 1px solid red; */
+        background-color: lightgray; 
+        width: 50%;
+        margin: 0 auto;
+        padding: 2%;
     }
 
-    .logofooter img{
+    content{
+        text-align: center;
+    }
+
+    header{
+        width: 100%;
+        display: inline-block;
+    }
+
+    header img{
+        width: 50%;
+        clear: both;
+    }
+
+    #about{
+        grid-template-columns: auto;
+    }
+
+    .page{
+        margin: 0 auto;
+    }
+
+    #about img{
+        margin: 0 auto;
+    }
+
+    .eventcontainer{
+        grid-template-columns: auto;
+    }
+
+    .newscontainer{
+        grid-template-columns: auto; 
+    }
+    .cardNews img{
         width: 70%;
     }
 
-    .
+    footer{
+        width: 100%;
+    }
+
+    footer img{
+        width: 70%;
+        height: 50%;
+    }
 }
