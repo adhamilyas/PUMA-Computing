@@ -49,9 +49,12 @@ header nav ul li{
 
 .active {
     background-color: lightgrey;
-  }
+}
 
-
+/* Login box */
+.loginbox {
+    border: 1px solid grey;
+}
 
 
 
@@ -94,25 +97,24 @@ header nav ul li{
 
 article{
     margin: 5% 10%;
+    margin-bottom: 10%;
     /* border: 1px solid red; */
-    
-}
-
-#about img{
-    /* border: 1px solid grey; */
-    margin-right: 5%;
 }
 
 #about {
     /* border: 1px solid green; */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 
 .page{
     /* border: 1px solid red; */
-    width: 50%;
-    margin-left: 5%;
+    margin: 0 20%;
+}
+
+.page h1{
+    /* border: 1px solid red; */
+    text-align: center;
 }
 
 .page p{
@@ -176,12 +178,12 @@ article{
 }
 
 .shwbx{
-    border: 2px solid grey;
-    height: 70vh;
-    background: url(image/president\ university\ oke\ baru\ fix-05050.jpg)center/cover no-repeat;
+    /* border: 2px solid grey; */
+    height: 80vh;
     border-radius: 7px;
     flex: 0 0 70%;
     margin-top: 10%;  
+    text-align: center;
 }
 
 .card{
@@ -253,6 +255,7 @@ article{
     width: 30%; 
     margin: 0 auto;
 }
+
 .aboutBox h1{
     padding: 20px;
 }
@@ -262,19 +265,12 @@ article{
     /* border: 1px solid red; */
 }
 
-#memberArt{
-    /* border: 1px solid red; */
-}
 .imgPlace{
     margin: 20px auto;
     border:1px solid pink;
     width: 360px;
     height: 120px;
 
-}
-
-.division{
-    /* border:1px solid purple; */
 }
 
 .detailPlace{
@@ -332,7 +328,8 @@ article{
 
 footer{
     background-color: grey;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: auto auto;
     width: 100%;
     margin-bottom: -5px;
     /* border: 1px solid red; */
@@ -341,15 +338,15 @@ footer{
 .logofooter{
     /* border: 1px solid green; */
     float: left;
-    margin-left: 15%;
+    text-align: center;
 }
 
 .infofooter{
     /* border: 1px solid yellow; */
     float: right;
-    margin-right: 15%;
     padding: 5px;
     margin-top: 1%;
+    text-align: center;
 }
 
 .address{
@@ -440,6 +437,8 @@ footer{
 
     footer{
         width: 100%;
+        display: grid;
+        grid-template-columns: auto;
     }
 
     footer img{
@@ -451,17 +450,19 @@ footer{
         margin-top: 20%;
     }
 
+    .shwbx{
+        /* border: 1px solid red; */
+        height: 20vh;
+    }
+
     #Eventlist{
         margin-top: 30%;
     }
+    
     .aboutBox{
-    /* border: 1px solid green; */
-    width: 50%; 
-    margin: 0 auto;
-    }
-
-    .shwbx{
-        height: 20vh;
+        /* border: 1px solid green; */
+        width: 50%; 
+        margin: 0 auto;
     }
 
     .aboutPage{
@@ -476,5 +477,32 @@ footer{
         width: 240px;
         height: 80px;
     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .eventcontainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .shwbx{
+        /* border: 1px solid red; */
+        height: 20vh;
     }
 }
