@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p,h1,h3,figcaption,li {
+    font-family: 'Roboto', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -97,14 +103,19 @@ header nav ul li{
 
 article{
     margin: 5% 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     /* border: 1px solid red; */
 }
 
 #about {
     /* border: 1px solid green; */
-    display: grid;
-    grid-template-columns: auto;
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+#about p{
+    font-size: 20px;
+    text-align: center;
 }
 
 .page{
@@ -166,7 +177,7 @@ article{
 }
 
 .cardNews{
-    padding: 20px;
+    padding-top: 10px;
     margin: 20px auto;
     /* border: 1px solid purple; */
     transition: all 0.2s linear;
@@ -411,6 +422,10 @@ footer{
 
     #about{
         grid-template-columns: auto;
+    }
+
+    #about p{
+        font-size: 15px;
     }
 
     .page{
